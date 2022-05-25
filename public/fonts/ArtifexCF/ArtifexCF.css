@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-Light.eot');
+    src: local('Artifex CF Light'), local('ArtifexCF-Light'),
+        url('ArtifexCF-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-Light.woff2') format('woff2'),
+        url('ArtifexCF-Light.woff') format('woff'),
+        url('ArtifexCF-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF Extra';
+    src: url('ArtifexCF-ExtraLightItalic.eot');
+    src: local('Artifex CF Extra Light Italic'), local('ArtifexCF-ExtraLightItalic'),
+        url('ArtifexCF-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-ExtraLightItalic.woff2') format('woff2'),
+        url('ArtifexCF-ExtraLightItalic.woff') format('woff'),
+        url('ArtifexCF-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-Regular.eot');
+    src: local('Artifex CF'), local('ArtifexCF-Regular'),
+        url('ArtifexCF-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-Regular.woff2') format('woff2'),
+        url('ArtifexCF-Regular.woff') format('woff'),
+        url('ArtifexCF-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-RegularItalic.eot');
+    src: local('Artifex CF Italic'), local('ArtifexCF-RegularItalic'),
+        url('ArtifexCF-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-RegularItalic.woff2') format('woff2'),
+        url('ArtifexCF-RegularItalic.woff') format('woff'),
+        url('ArtifexCF-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF Demi';
+    src: url('ArtifexCF-DemiBoldItalic.eot');
+    src: local('Artifex CF Demi Bold Italic'), local('ArtifexCF-DemiBoldItalic'),
+        url('ArtifexCF-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-DemiBoldItalic.woff2') format('woff2'),
+        url('ArtifexCF-DemiBoldItalic.woff') format('woff'),
+        url('ArtifexCF-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF Extra';
+    src: url('ArtifexCF-ExtraLight.eot');
+    src: local('Artifex CF Extra Light'), local('ArtifexCF-ExtraLight'),
+        url('ArtifexCF-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-ExtraLight.woff2') format('woff2'),
+        url('ArtifexCF-ExtraLight.woff') format('woff'),
+        url('ArtifexCF-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF Book';
+    src: url('ArtifexCF-Book.eot');
+    src: local('Artifex CF Book'), local('ArtifexCF-Book'),
+        url('ArtifexCF-Book.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-Book.woff2') format('woff2'),
+        url('ArtifexCF-Book.woff') format('woff'),
+        url('ArtifexCF-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF Extra';
+    src: url('ArtifexCF-ExtraBoldItalic.eot');
+    src: local('Artifex CF Extra Bold Italic'), local('ArtifexCF-ExtraBoldItalic'),
+        url('ArtifexCF-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-ExtraBoldItalic.woff2') format('woff2'),
+        url('ArtifexCF-ExtraBoldItalic.woff') format('woff'),
+        url('ArtifexCF-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-Heavy.eot');
+    src: local('Artifex CF Heavy'), local('ArtifexCF-Heavy'),
+        url('ArtifexCF-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-Heavy.woff2') format('woff2'),
+        url('ArtifexCF-Heavy.woff') format('woff'),
+        url('ArtifexCF-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-Bold.eot');
+    src: local('Artifex CF Bold'), local('ArtifexCF-Bold'),
+        url('ArtifexCF-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-Bold.woff2') format('woff2'),
+        url('ArtifexCF-Bold.woff') format('woff'),
+        url('ArtifexCF-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-HeavyItalic.eot');
+    src: local('Artifex CF Heavy Italic'), local('ArtifexCF-HeavyItalic'),
+        url('ArtifexCF-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-HeavyItalic.woff2') format('woff2'),
+        url('ArtifexCF-HeavyItalic.woff') format('woff'),
+        url('ArtifexCF-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-BoldItalic.eot');
+    src: local('Artifex CF Bold Italic'), local('ArtifexCF-BoldItalic'),
+        url('ArtifexCF-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-BoldItalic.woff2') format('woff2'),
+        url('ArtifexCF-BoldItalic.woff') format('woff'),
+        url('ArtifexCF-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF';
+    src: url('ArtifexCF-LightItalic.eot');
+    src: local('Artifex CF Light Italic'), local('ArtifexCF-LightItalic'),
+        url('ArtifexCF-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-LightItalic.woff2') format('woff2'),
+        url('ArtifexCF-LightItalic.woff') format('woff'),
+        url('ArtifexCF-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF Book';
+    src: url('ArtifexCF-BookItalic.eot');
+    src: local('Artifex CF Book Italic'), local('ArtifexCF-BookItalic'),
+        url('ArtifexCF-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-BookItalic.woff2') format('woff2'),
+        url('ArtifexCF-BookItalic.woff') format('woff'),
+        url('ArtifexCF-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Artifex CF Extra';
+    src: url('ArtifexCF-ExtraBold.eot');
+    src: local('Artifex CF Extra Bold'), local('ArtifexCF-ExtraBold'),
+        url('ArtifexCF-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-ExtraBold.woff2') format('woff2'),
+        url('ArtifexCF-ExtraBold.woff') format('woff'),
+        url('ArtifexCF-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artifex CF Demi';
+    src: url('ArtifexCF-DemiBold.eot');
+    src: local('Artifex CF Demi Bold'), local('ArtifexCF-DemiBold'),
+        url('ArtifexCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ArtifexCF-DemiBold.woff2') format('woff2'),
+        url('ArtifexCF-DemiBold.woff') format('woff'),
+        url('ArtifexCF-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cracked';
+    src: url('CfCrackAndBoldRegular-3jxp.ttf');
+}

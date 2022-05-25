@@ -1,0 +1,58 @@
+version: 2.1
+
+orbs:
+  heroku: circleci/heroku@1.2.6 # https://circleci.com/developer/orbs/orb/circleci/heroku
+
+jobs:
+  build:
+    executor: heroku/default
+    steps:
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - checkout
+      - heroku/install
+      - heroku/check-authentication
+      - heroku/push-docker-image:
+          app-name: rockademy
+          process-types: web
+  deploy:
+    executor: heroku/default
+    steps:
+      - setup_remote_docker
+      - heroku/install
+      - heroku/check-authentication
+      - heroku/release-docker-image:
+          app-name: rockademy
+          process-types: web
+
+workflows:
+  deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - develop
+                - main
+      - deploy:
+          requires:
+            - build
+
+
+# For deploying only develop/main
+# workflows:
+#   deploy:
+#     jobs:
+#       - build:
+#           filters:
+#             branches:
+#               only:
+#                 - develop
+#                 - main
+#       - hold:
+#           type: approval
+#           requires:
+#             - build
+#       - deploy:
+#           requires:
+#             - hold

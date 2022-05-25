@@ -1,0 +1,11 @@
+.circleci
+.dockerignore
+.git
+.idea
+.idea/**/*
+*.iml
+.next
+Dockerfile
+docker-compose.yml
+node_modules
+.env*
