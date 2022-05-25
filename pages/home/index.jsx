@@ -12,7 +12,7 @@ const HomePage = () => {
 	return (
 		<>
 			<Hero />
-			{/* Herro */}
+			{/* Herro again */}
 			{/* <JoinEvent /> */}
 			{/* <UpcomingEvent /> */}
 			<AboutUs />
